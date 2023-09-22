@@ -2,9 +2,10 @@
   "name": "rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "app-hss.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
+    "start": "node app-hss.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
