@@ -5,7 +5,7 @@
   "main": "app-hss.js",
   "type": "module",
   "scripts": {
-    "start": "node app-hss.js",
+    "start": "node server-with-mysql.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:mysql": "node --watch server-with-mysql.js",
     "start:local-file": "node --watch server-with-localfile.js"
