@@ -6,14 +6,18 @@
   "type": "module",
   "scripts": {
     "start": "node app-hss.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:mysql": "node --watch server-with-mysql.js",
+    "start:local-file": "node --watch server-with-localfile.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "2.8.5",
+    "dotenv": "16.3.1",
     "express": "4.18.2",
+    "mysql2": "^3.6.1",
     "zod": "3.21.4"
   }
 }
